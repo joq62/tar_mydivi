@@ -5,7 +5,6 @@ all:
 start:
 	rm -rf *.tar.gz;
 	rm -rf divi;
-	git clone --depth 1 --branch 0.1.0 https://github.com/joq62/tar_mydivi.git .;
-	tar -zxvf my_divi_rel-0.1.0.tar.gz --directory divi;
-	rm -rf my_divi_rel-0.1.0.tar.gz;
+	tar -zxvf my_divi_rel-0.1.2.tar.gz --directory divi;
+	rm -rf my_divi_rel-0.1.2.tar.gz;
 	./divi/bin/my_divi_rel console
